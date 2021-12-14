@@ -1,0 +1,28 @@
+.logo-text{
+    max-width: 500px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .logo-holder {
+        display: inline-block;
+        width: 25%;
+        max-height: inherit;
+        
+        img {
+            width: 90%;
+            height: auto;
+            margin-left: 7px;
+            margin-top: 9px;
+        }
+    }
+    .text-holder {
+        width: 60%;
+        margin-top: 4%;
+    
+        img {
+            width: 90%;
+            height: auto;
+        }
+    }
+}
